@@ -1,0 +1,120 @@
+/* sheared property */
+:root{
+    --hdr-font-size:48px;
+    --p-font-size: 20px;
+    --prm-max-width: 1440px;
+    --prm-margin: 0px auto;
+    --prm-color:#0B0223;
+    --prmp-color:#534C64;
+    --sec-color:#d721a0;
+    /* mobil */
+    --Mhdr-font-size:35px;
+    --mp-font-size:17px;
+    --Mprm-max-width: 500px;
+}
+h3{
+    border: 1px solid black;
+    font-size: var(--hdr-font-size);
+    font-weight: 700;
+    color: var(--prm-color);
+
+}
+p{
+    border: 1px solid black;
+    font-size: var(--p-font-size);
+    font-weight: 500;
+    color: var(--prm-color); 
+}
+button{
+    color:#FFFFFF;
+    padding:20px 40px;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    border: none;
+}
+/* navbar */
+header{
+    border: 1px solid black;
+    display:flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: var(--prm-max-width);
+    margin: var(--prm-margin);
+    padding: 0px;     
+}
+.icon_name{
+    border: 1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    max-width: 264px;
+    
+}
+.icon_name > img{
+ width: 100px;
+ height: 85px;   
+}
+.icon_name > #name{
+    font-size:45px;
+    color:var(--prm-color) ;
+    font-weight: 700;
+
+}
+#name > span{ 
+    color: var(--sec-color);   
+}
+/* manubar */
+.nav_bar > ul{
+    border: 1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    color:var(--prm-color) ;
+    font-size:22px;
+    list-style-type: none; 
+     
+}
+ul > #follow{
+    border: 1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    gap: 10px;
+    padding: 10px 10px 10px  25px;
+    border-radius: 15px;
+    background-color:rgba(11, 2, 35, 0.10) ;
+}
+li >a:link{
+    text-decoration: none; 
+    
+}
+a{
+    color: black;
+}
+/* main */
+main{
+    max-width: var(--prm-max-width);
+    margin: var(--prm-margin);
+    border: 1px solid black;
+}
+/* gammer section */
+#gammer{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    /* color:var(--sec-color);  */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color:#FFFFFF;
+}
+#gammer > ul{
+
+}

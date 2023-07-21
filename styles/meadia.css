@@ -1,0 +1,40 @@
+    :root{
+    --hdr-font-size:48px;
+    --p-font-size: 20px;
+    --prm-max-width: 1440px;
+    --prm-margin: 0px auto;
+    --prm-color:#0B0223;
+    --prmp-color:#534C64;
+    --sec-color:#d721a0;
+    /* mobil */
+    --Mhdr-font-size:35px;
+    --mp-font-size:1px;
+    --Mprm-max-width: 500px;
+}
+    
+    
+    main{ /* main */
+        max-width: var(--Mprm-max-width);
+    }
+    #gammer{
+        flex-direction:column;
+        max-width: var(--Mprm-max-width);
+        gap: 50px;
+        
+    }
+    #gammer > div{border: 1px solid black;
+        justify-content: center
+    }
+    .cntnt{
+        width: 400px;
+        padding: 0px auto;
+        justify-content: center;
+    }  
+    h2{
+        font-size: 80px;
+        max-width: 300px;
+        font-weight: 530;
+    }
+    #gammer > ul{
+        
+    }
